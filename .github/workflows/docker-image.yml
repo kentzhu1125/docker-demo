@@ -8,8 +8,6 @@ permissions:
   packages: write
   
 jobs:
-
-
   build:
     env:
       CR_PAT: ${{ secrets.GITHUB_TOKEN }}
