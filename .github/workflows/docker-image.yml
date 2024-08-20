@@ -1,7 +1,7 @@
-name: Docker-Package-Demo
+name: test
 
 on:
-  push:
+  pull_request:
     branches: [ "main" ]
 permissions:
   packages: write
