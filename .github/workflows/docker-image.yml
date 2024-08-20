@@ -1,7 +1,7 @@
-name: SEE-Which-One
+name: TWO
 
 on:
-  push:
+  pull_request:
     branches: [ "main" ]
 permissions:
   packages: write
