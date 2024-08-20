@@ -1,7 +1,7 @@
-name: Docke-Test
+name: SEE-Which-One
 
 on:
-  push:
+  pull_request:
     branches: [ "main" ]
 permissions:
   packages: write
