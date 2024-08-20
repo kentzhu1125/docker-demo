@@ -1,7 +1,7 @@
-name: test
+name: Docke-Test
 
 on:
-  pull_request:
+  push:
     branches: [ "main" ]
 permissions:
   packages: write
