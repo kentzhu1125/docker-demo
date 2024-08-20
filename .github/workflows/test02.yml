@@ -1,7 +1,7 @@
-name: workflow_dispath_main
+name: workflow_dispatch_main
 
 on:
-  workflow_dispath
+  workflow_dispatch
 permissions:
   packages: write
 jobs:
