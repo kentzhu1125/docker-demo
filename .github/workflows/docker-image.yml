@@ -3,8 +3,6 @@ name: Docker-Package-Demo
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 permissions:
   packages: write
 jobs:
